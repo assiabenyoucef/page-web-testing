@@ -1,0 +1,118 @@
+/* définir un font*/
+body
+{
+	background: url(bg1.jpg);
+}
+/* définir le header*/
+.header {
+    
+           background-color: #404040;
+            height: 35px; 
+
+		}
+/*définir le footer*/
+.footer {
+            
+           background-color: #404040;
+            height: 50px; 
+           assia ben
+		}
+/* définit la largeur du conteneur */
+.conteneur{
+	width: 960px;
+	margin:auto;
+	}
+/* mettre en place le logo*/
+.logo{
+      height:100px;
+      width: 100px;
+		background: url(logo1.png) no-repeat;
+		float: left;
+	}
+/* mettre en place le menu*/
+nav ul {
+	list-style: none;
+	width:300px;
+	margin:auto;
+    	}
+nav ul li a{
+         font-family:sans-serif;
+         font-weight: bold;
+		float: left;
+		text-decoration: none;
+		 color:#D7D6D6; 
+		 padding-right: 25px;
+		 padding-top:10px;
+
+}
+nav ul li a:hover{color:white;
+text-shadow: 0px 1px 1px white;
+}
+nav ul li a:focus{color:red;
+text-shadow: 0px 1px 1px red;
+}
+/*fin menu*/
+/*definir le body de la page*/
+.corps {
+		    margin:auto;
+			width:710px;
+			margin-top:30px;
+					
+}
+/*définir le header du corps*/
+.hcorps{ background: url(ib1.png) no-repeat;
+		 width:710px;
+		 height: 35px; 
+
+}
+/*définir le body du corps*/
+.sec{ background: url(ib2.png) repeat  ; 
+	width:710px; 
+
+}
+/*définir le footer du corps*/
+.fcorps{ background: url(ib3.png) no-repeat; width:710px;
+	height: 200px;}
+/*définir les paramètres du contenu de la sec*/
+.sec_content{
+margin-left: 46px;width:620px;
+padding-top:10px;
+
+}
+/*photo*/
+.photo{border-radius:15px;
+	width: 615px; 
+	border:3px dotted #dddddd  ; }
+.photo:hover{  transition-duration: 8s;
+	transform:scale(1.2) /*rotate(360deg)*/ ;}
+/* article style*/
+.art {
+	font-family: sans-serif;
+	color:#7D7D7D;
+}
+
+/*form style*/
+.form{margin-left: 60px;
+	font-family: sans-serif;
+	color:#7D7D7D;
+
+}
+
+/* titre style*/
+legend{
+	text-align: center;
+
+
+}
+
+.partager{font-family:sans-serif;
+
+	color:#7D7D7D;
+	text-align: center;
+	font-style:italic;}
+
+
+form table tr td input{border-radius: 3px;
+                        border: 1px solid #aaaaaa;
+                       }
+  
